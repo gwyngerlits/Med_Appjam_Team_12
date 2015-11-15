@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Voice
 //
-//  Created by Kay Lab on 11/14/15.
+//  Created by Gwyn Gerlits on 11/14/15.
 //  Copyright © 2015 Team12. All rights reserved.
 //
 
