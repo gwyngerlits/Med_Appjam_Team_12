@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Voice" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vM-Ca-mVj">
+                                <rect key="frame" x="262" y="515" width="78" height="35"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="center" misplaced="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oTT-BM-BFB">
+                                <rect key="frame" x="251" y="450" width="100" height="100"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="oTT-BM-BFB" secondAttribute="height" multiplier="1:1" id="30X-BL-FjL"/>
+                                    <constraint firstAttribute="width" constant="100" id="vjY-qD-ZGs"/>
+                                </constraints>
+                                <state key="normal" image="recordOff.png"/>
+                                <connections>
+                                    <action selector="recordButtonPush:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JCf-8b-Y2v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oTT-BM-BFB" secondAttribute="bottom" constant="50" id="Een-Nu-Une"/>
+                            <constraint firstItem="oTT-BM-BFB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XpW-IG-nwQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2vM-Ca-mVj" secondAttribute="bottom" constant="175" id="a5y-g4-50c"/>
+                            <constraint firstItem="2vM-Ca-mVj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sx2-RU-vN3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="current" destination="a7H-zM-m3S" id="iBm-4F-PV9"/>
+                        <outlet property="duration" destination="t7v-8J-5Cd" id="F8t-WO-49c"/>
+                        <outlet property="playButton" destination="reA-9T-CxD" id="2Ks-l4-Y7R"/>
+                        <outlet property="recordButton" destination="oTT-BM-BFB" id="PG2-Hn-J6X"/>
+                        <outlet property="recordTime" destination="2vM-Ca-mVj" id="frx-ox-vGu"/>
+                        <outlet property="slider" destination="D52-TY-Vko" id="v4b-Od-Odz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="290" y="342"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PxA-1K-rAa">
+            <objects>
+                <viewController id="Fqq-9f-yMn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gKl-ix-lSD"/>
+                        <viewControllerLayoutGuide type="bottom" id="uWd-gm-So0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vez-Hh-MoI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Current" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7H-zM-m3S">
+                                <rect key="frame" x="106" y="355" width="59" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Duration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t7v-8J-5Cd">
+                                <rect key="frame" x="267" y="355" width="66" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="reA-9T-CxD">
+                                <rect key="frame" x="195" y="440" width="53" height="53"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="PwJ-AU-Cu7"/>
+                                    <constraint firstAttribute="height" constant="100" id="Xob-Fk-hCd"/>
+                                </constraints>
+                                <state key="normal" image="play.png"/>
+                                <connections>
+                                    <action selector="playButtonPush:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U8q-SU-1jB"/>
+                                </connections>
+                            </button>
+                            <slider hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="D52-TY-Vko">
+                                <rect key="frame" x="162" y="508" width="118" height="31"/>
+                                <animations/>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kqT-c2-eAW">
+                                <rect key="frame" x="20" y="550" width="92" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Record Again"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gip-ag-WC1">
+                                <rect key="frame" x="531" y="550" width="49" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Submit"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7pv-Ao-rda" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="play.png" width="190" height="188"/>
+        <image name="recordOff.png" width="25" height="25"/>
+    </resources>
+</document>

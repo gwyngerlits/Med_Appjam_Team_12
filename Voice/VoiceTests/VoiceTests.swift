@@ -1,15 +1,15 @@
 //
-//  TestTests.swift
-//  TestTests
+//  VoiceTests.swift
+//  VoiceTests
 //
-//  Created by Kay Lab on 11/4/15.
+//  Created by Kay Lab on 11/14/15.
 //  Copyright © 2015 Team12. All rights reserved.
 //
 
 import XCTest
-@testable import Test
+@testable import Voice
 
-class TestTests: XCTestCase {
+class VoiceTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Test.xcscheme</key>
+		<key>Voice.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>ED3A55B81BEA1197005C899C</key>
+		<key>EDA11CDD1BF821E10020E293</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>ED3A55CE1BEA1197005C899C</key>
+		<key>EDA11CF11BF821E10020E293</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>ED3A55D91BEA1197005C899C</key>
+		<key>EDA11CFC1BF821E10020E293</key>
 		<dict>
 			<key>primary</key>
 			<true/>

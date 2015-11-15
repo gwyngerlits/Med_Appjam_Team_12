@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ED3A55B81BEA1197005C899C"
-               BuildableName = "Test.app"
-               BlueprintName = "Test"
-               ReferencedContainer = "container:Test.xcodeproj">
+               BlueprintIdentifier = "EDA11CDD1BF821E10020E293"
+               BuildableName = "Voice.app"
+               BlueprintName = "Voice"
+               ReferencedContainer = "container:Voice.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ED3A55CE1BEA1197005C899C"
-               BuildableName = "TestTests.xctest"
-               BlueprintName = "TestTests"
-               ReferencedContainer = "container:Test.xcodeproj">
+               BlueprintIdentifier = "EDA11CF11BF821E10020E293"
+               BuildableName = "VoiceTests.xctest"
+               BlueprintName = "VoiceTests"
+               ReferencedContainer = "container:Voice.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ED3A55D91BEA1197005C899C"
-               BuildableName = "TestUITests.xctest"
-               BlueprintName = "TestUITests"
-               ReferencedContainer = "container:Test.xcodeproj">
+               BlueprintIdentifier = "EDA11CFC1BF821E10020E293"
+               BuildableName = "VoiceUITests.xctest"
+               BlueprintName = "VoiceUITests"
+               ReferencedContainer = "container:Voice.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED3A55B81BEA1197005C899C"
-            BuildableName = "Test.app"
-            BlueprintName = "Test"
-            ReferencedContainer = "container:Test.xcodeproj">
+            BlueprintIdentifier = "EDA11CDD1BF821E10020E293"
+            BuildableName = "Voice.app"
+            BlueprintName = "Voice"
+            ReferencedContainer = "container:Voice.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED3A55B81BEA1197005C899C"
-            BuildableName = "Test.app"
-            BlueprintName = "Test"
-            ReferencedContainer = "container:Test.xcodeproj">
+            BlueprintIdentifier = "EDA11CDD1BF821E10020E293"
+            BuildableName = "Voice.app"
+            BlueprintName = "Voice"
+            ReferencedContainer = "container:Voice.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ED3A55B81BEA1197005C899C"
-            BuildableName = "Test.app"
-            BlueprintName = "Test"
-            ReferencedContainer = "container:Test.xcodeproj">
+            BlueprintIdentifier = "EDA11CDD1BF821E10020E293"
+            BuildableName = "Voice.app"
+            BlueprintName = "Voice"
+            ReferencedContainer = "container:Voice.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
