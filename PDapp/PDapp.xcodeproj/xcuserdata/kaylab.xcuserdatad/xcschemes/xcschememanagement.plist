@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Test.xcscheme</key>
+		<key>PDapp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>ED3A55B81BEA1197005C899C</key>
+		<key>BC41BCE51BF43EB2004E608C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>ED3A55CE1BEA1197005C899C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>ED3A55D91BEA1197005C899C</key>
+		<key>BC41BCFA1BF43EB3004E608C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
