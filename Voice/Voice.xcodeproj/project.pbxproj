@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		ED576A1B1BF8A80F00EB1000 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED576A1A1BF8A80F00EB1000 /* SecondViewController.swift */; };
+		ED576A201BF8C15800EB1000 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = ED576A1C1BF8C15800EB1000 /* pause.png */; };
+		ED576A211BF8C15800EB1000 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = ED576A1D1BF8C15800EB1000 /* play.png */; };
+		ED576A221BF8C15800EB1000 /* recordOff.png in Resources */ = {isa = PBXBuildFile; fileRef = ED576A1E1BF8C15800EB1000 /* recordOff.png */; };
+		ED576A231BF8C15800EB1000 /* recordOn.png in Resources */ = {isa = PBXBuildFile; fileRef = ED576A1F1BF8C15800EB1000 /* recordOn.png */; };
 		EDA11CE21BF821E10020E293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA11CE11BF821E10020E293 /* AppDelegate.swift */; };
 		EDA11CE41BF821E10020E293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA11CE31BF821E10020E293 /* ViewController.swift */; };
 		EDA11CE71BF821E10020E293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA11CE51BF821E10020E293 /* Main.storyboard */; };
@@ -15,10 +19,6 @@
 		EDA11CEC1BF821E10020E293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA11CEA1BF821E10020E293 /* LaunchScreen.storyboard */; };
 		EDA11CF71BF821E10020E293 /* VoiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA11CF61BF821E10020E293 /* VoiceTests.swift */; };
 		EDA11D021BF821E10020E293 /* VoiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA11D011BF821E10020E293 /* VoiceUITests.swift */; };
-		EDA11D111BF866C70020E293 /* recordOff.png in Resources */ = {isa = PBXBuildFile; fileRef = EDA11D0F1BF866C70020E293 /* recordOff.png */; };
-		EDA11D121BF866C70020E293 /* recordOn.png in Resources */ = {isa = PBXBuildFile; fileRef = EDA11D101BF866C70020E293 /* recordOn.png */; };
-		EDA11D1B1BF86EDF0020E293 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = EDA11D191BF86EDE0020E293 /* pause.png */; };
-		EDA11D201BF86F930020E293 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = EDA11D1F1BF86F930020E293 /* play.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,10 @@
 
 /* Begin PBXFileReference section */
 		ED576A1A1BF8A80F00EB1000 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		ED576A1C1BF8C15800EB1000 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = Assets.xcassets/AppIcon.appiconset/pause.png; sourceTree = "<group>"; };
+		ED576A1D1BF8C15800EB1000 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = Assets.xcassets/AppIcon.appiconset/play.png; sourceTree = "<group>"; };
+		ED576A1E1BF8C15800EB1000 /* recordOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = recordOff.png; path = Assets.xcassets/AppIcon.appiconset/recordOff.png; sourceTree = "<group>"; };
+		ED576A1F1BF8C15800EB1000 /* recordOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = recordOn.png; path = Assets.xcassets/AppIcon.appiconset/recordOn.png; sourceTree = "<group>"; };
 		EDA11CDE1BF821E10020E293 /* Voice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA11CE11BF821E10020E293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDA11CE31BF821E10020E293 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,10 +57,6 @@
 		EDA11CFD1BF821E10020E293 /* VoiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA11D011BF821E10020E293 /* VoiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceUITests.swift; sourceTree = "<group>"; };
 		EDA11D031BF821E10020E293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDA11D0F1BF866C70020E293 /* recordOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = recordOff.png; path = ../../../../Downloads/recordOff.png; sourceTree = "<group>"; };
-		EDA11D101BF866C70020E293 /* recordOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = recordOn.png; path = ../../../../Downloads/recordOn.png; sourceTree = "<group>"; };
-		EDA11D191BF86EDE0020E293 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = ../../../../Downloads/pause.png; sourceTree = "<group>"; };
-		EDA11D1F1BF86F930020E293 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = ../../../../Downloads/play.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,10 +140,10 @@
 		EDA11D141BF866E40020E293 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				EDA11D0F1BF866C70020E293 /* recordOff.png */,
-				EDA11D101BF866C70020E293 /* recordOn.png */,
-				EDA11D191BF86EDE0020E293 /* pause.png */,
-				EDA11D1F1BF86F930020E293 /* play.png */,
+				ED576A1C1BF8C15800EB1000 /* pause.png */,
+				ED576A1D1BF8C15800EB1000 /* play.png */,
+				ED576A1E1BF8C15800EB1000 /* recordOff.png */,
+				ED576A1F1BF8C15800EB1000 /* recordOn.png */,
 			);
 			name = Assets;
 			path = Voice;
@@ -258,10 +258,10 @@
 			files = (
 				EDA11CEC1BF821E10020E293 /* LaunchScreen.storyboard in Resources */,
 				EDA11CE91BF821E10020E293 /* Assets.xcassets in Resources */,
-				EDA11D1B1BF86EDF0020E293 /* pause.png in Resources */,
-				EDA11D111BF866C70020E293 /* recordOff.png in Resources */,
-				EDA11D121BF866C70020E293 /* recordOn.png in Resources */,
-				EDA11D201BF86F930020E293 /* play.png in Resources */,
+				ED576A211BF8C15800EB1000 /* play.png in Resources */,
+				ED576A201BF8C15800EB1000 /* pause.png in Resources */,
+				ED576A221BF8C15800EB1000 /* recordOff.png in Resources */,
+				ED576A231BF8C15800EB1000 /* recordOn.png in Resources */,
 				EDA11CE71BF821E10020E293 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
