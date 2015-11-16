@@ -451,20 +451,22 @@
                                                         </mask>
                                                     </variation>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9E-ba-7D5">
-                                                    <rect key="frame" x="213" y="7" width="174" height="30"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reading Results 11/10/15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQH-Ex-1ak">
+                                                    <rect key="frame" x="206" y="11" width="189" height="21"/>
                                                     <animations/>
-                                                    <state key="normal" title="Reading Results: 11/10/15"/>
-                                                </button>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <animations/>
                                             <constraints>
-                                                <constraint firstItem="f9E-ba-7D5" firstAttribute="centerX" secondItem="ikE-jw-Lq7" secondAttribute="centerX" id="2S6-tX-scE"/>
                                                 <constraint firstItem="tru-wz-iJL" firstAttribute="leading" secondItem="ikE-jw-Lq7" secondAttribute="leadingMargin" id="6Z1-zy-4nV"/>
-                                                <constraint firstItem="f9E-ba-7D5" firstAttribute="centerY" secondItem="ikE-jw-Lq7" secondAttribute="centerY" id="7Qv-FY-KBm"/>
+                                                <constraint firstItem="LQH-Ex-1ak" firstAttribute="centerY" secondItem="ikE-jw-Lq7" secondAttribute="centerY" id="94U-oF-7DI"/>
                                                 <constraint firstItem="tru-wz-iJL" firstAttribute="centerY" secondItem="ikE-jw-Lq7" secondAttribute="centerY" id="F4Y-2u-dbu"/>
                                                 <constraint firstItem="tru-wz-iJL" firstAttribute="leading" secondItem="ikE-jw-Lq7" secondAttribute="leadingMargin" id="izN-AB-sFM"/>
                                                 <constraint firstItem="tru-wz-iJL" firstAttribute="centerY" secondItem="ikE-jw-Lq7" secondAttribute="centerY" id="jL8-vI-TAS"/>
+                                                <constraint firstItem="LQH-Ex-1ak" firstAttribute="centerX" secondItem="ikE-jw-Lq7" secondAttribute="centerX" id="r76-zf-6E3"/>
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
@@ -506,20 +508,24 @@
                                                         </mask>
                                                     </variation>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlW-H1-ejs">
-                                                    <rect key="frame" x="217" y="7" width="167" height="30"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reading Results 11/9/15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gD-Bh-uTk">
+                                                    <rect key="frame" x="209" y="11" width="182" height="21"/>
                                                     <animations/>
-                                                    <state key="normal" title="Reading Results: 11/9/15"/>
-                                                </button>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <animations/>
                                             <constraints>
                                                 <constraint firstItem="n7E-ie-nYz" firstAttribute="leading" secondItem="3sB-Cu-5ea" secondAttribute="leadingMargin" id="3QW-gn-xkW"/>
                                                 <constraint firstItem="n7E-ie-nYz" firstAttribute="centerY" secondItem="3sB-Cu-5ea" secondAttribute="centerY" id="5Wt-zm-yJg"/>
                                                 <constraint firstItem="n7E-ie-nYz" firstAttribute="leading" secondItem="3sB-Cu-5ea" secondAttribute="leadingMargin" id="7IU-TJ-u13"/>
-                                                <constraint firstItem="qlW-H1-ejs" firstAttribute="centerY" secondItem="3sB-Cu-5ea" secondAttribute="centerY" id="Bvv-a0-1Y3"/>
+                                                <constraint firstItem="3gD-Bh-uTk" firstAttribute="centerX" secondItem="3sB-Cu-5ea" secondAttribute="centerX" id="8AD-Cv-drj"/>
+                                                <constraint firstItem="3gD-Bh-uTk" firstAttribute="centerY" secondItem="3sB-Cu-5ea" secondAttribute="centerY" id="EX9-dI-zTR"/>
                                                 <constraint firstItem="n7E-ie-nYz" firstAttribute="centerY" secondItem="3sB-Cu-5ea" secondAttribute="centerY" id="KQN-li-Tln"/>
-                                                <constraint firstItem="qlW-H1-ejs" firstAttribute="centerX" secondItem="3sB-Cu-5ea" secondAttribute="centerX" id="mZ5-lb-J4f"/>
+                                                <constraint firstItem="3gD-Bh-uTk" firstAttribute="centerY" secondItem="3sB-Cu-5ea" secondAttribute="centerY" id="Xfz-V3-D5t"/>
+                                                <constraint firstItem="3gD-Bh-uTk" firstAttribute="centerX" secondItem="3sB-Cu-5ea" secondAttribute="centerX" id="oUJ-aJ-QYe"/>
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
@@ -548,17 +554,19 @@
                                                         <constraint firstAttribute="width" constant="43" id="kQj-xo-3js"/>
                                                     </constraints>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hh-7g-GFh">
-                                                    <rect key="frame" x="201" y="7" width="199" height="30"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Progress Update: September" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mh6-mr-9Hi">
+                                                    <rect key="frame" x="189" y="11" width="223" height="21"/>
                                                     <animations/>
-                                                    <state key="normal" title="Progress Update: September"/>
-                                                </button>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <animations/>
                                             <constraints>
-                                                <constraint firstItem="4hh-7g-GFh" firstAttribute="centerY" secondItem="kGw-Q7-i0P" secondAttribute="centerY" id="5Xa-tm-Wcb"/>
-                                                <constraint firstItem="4hh-7g-GFh" firstAttribute="centerX" secondItem="kGw-Q7-i0P" secondAttribute="centerX" id="NGQ-wB-e4Y"/>
+                                                <constraint firstItem="mh6-mr-9Hi" firstAttribute="centerX" secondItem="kGw-Q7-i0P" secondAttribute="centerX" id="RlQ-yd-TIo"/>
                                                 <constraint firstItem="rXg-P7-HDm" firstAttribute="leading" secondItem="kGw-Q7-i0P" secondAttribute="leadingMargin" id="rdm-Zh-a3X"/>
+                                                <constraint firstItem="mh6-mr-9Hi" firstAttribute="centerY" secondItem="kGw-Q7-i0P" secondAttribute="centerY" id="tZx-7W-Ch0"/>
                                                 <constraint firstItem="rXg-P7-HDm" firstAttribute="centerY" secondItem="kGw-Q7-i0P" secondAttribute="centerY" id="u8Z-6f-lj5"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -595,20 +603,22 @@
                                                         </mask>
                                                     </variation>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJd-2h-jO2">
-                                                    <rect key="frame" x="217" y="7" width="167" height="30"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reading Results 11/8/15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dvi-LD-opc">
+                                                    <rect key="frame" x="209" y="11" width="182" height="21"/>
                                                     <animations/>
-                                                    <state key="normal" title="Reading Results: 11/8/15"/>
-                                                </button>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <animations/>
                                             <constraints>
-                                                <constraint firstItem="JJd-2h-jO2" firstAttribute="centerX" secondItem="xF8-bF-nG8" secondAttribute="centerX" id="BeK-F6-dq3"/>
                                                 <constraint firstItem="fVa-m1-s0p" firstAttribute="centerY" secondItem="xF8-bF-nG8" secondAttribute="centerY" id="IHq-Sp-uYO"/>
                                                 <constraint firstItem="fVa-m1-s0p" firstAttribute="centerY" secondItem="xF8-bF-nG8" secondAttribute="centerY" id="J5e-WB-Z8f"/>
-                                                <constraint firstItem="JJd-2h-jO2" firstAttribute="centerY" secondItem="xF8-bF-nG8" secondAttribute="centerY" id="cBH-52-C9n"/>
+                                                <constraint firstItem="Dvi-LD-opc" firstAttribute="centerX" secondItem="xF8-bF-nG8" secondAttribute="centerX" id="Zm8-xD-0lR"/>
                                                 <constraint firstItem="fVa-m1-s0p" firstAttribute="leading" secondItem="xF8-bF-nG8" secondAttribute="leadingMargin" id="feY-SM-rgU"/>
                                                 <constraint firstItem="fVa-m1-s0p" firstAttribute="leading" secondItem="xF8-bF-nG8" secondAttribute="leadingMargin" id="gU0-Sf-Mvh"/>
+                                                <constraint firstItem="Dvi-LD-opc" firstAttribute="centerY" secondItem="xF8-bF-nG8" secondAttribute="centerY" id="uhK-uC-VcD"/>
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
@@ -629,11 +639,13 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M20-PL-8Fi">
-                                                    <rect key="frame" x="254" y="7" width="93" height="30"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Health Tip #2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0aZ-V1-qqN">
+                                                    <rect key="frame" x="248" y="11" width="104" height="21"/>
                                                     <animations/>
-                                                    <state key="normal" title="Health Tip #2"/>
-                                                </button>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="health.png" translatesAutoresizingMaskIntoConstraints="NO" id="e1c-2N-cPn">
                                                     <rect key="frame" x="8" y="0.0" width="43" height="43"/>
                                                     <animations/>
@@ -646,9 +658,9 @@
                                             <animations/>
                                             <constraints>
                                                 <constraint firstItem="e1c-2N-cPn" firstAttribute="leading" secondItem="Zfs-ZC-ZOp" secondAttribute="leadingMargin" id="8Hk-Ki-6CD"/>
-                                                <constraint firstItem="M20-PL-8Fi" firstAttribute="centerY" secondItem="Zfs-ZC-ZOp" secondAttribute="centerY" id="MVx-eC-tQU"/>
+                                                <constraint firstItem="0aZ-V1-qqN" firstAttribute="centerX" secondItem="Zfs-ZC-ZOp" secondAttribute="centerX" id="Lfn-HD-qtp"/>
+                                                <constraint firstItem="0aZ-V1-qqN" firstAttribute="centerY" secondItem="Zfs-ZC-ZOp" secondAttribute="centerY" id="XOt-3M-LgH"/>
                                                 <constraint firstItem="e1c-2N-cPn" firstAttribute="centerY" secondItem="Zfs-ZC-ZOp" secondAttribute="centerY" id="ew2-NM-u6L"/>
-                                                <constraint firstItem="M20-PL-8Fi" firstAttribute="centerX" secondItem="Zfs-ZC-ZOp" secondAttribute="centerX" id="uaC-T8-5NK"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <animations/>
@@ -684,20 +696,22 @@
                                                         </mask>
                                                     </variation>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XsS-Dd-u9A">
-                                                    <rect key="frame" x="217" y="7" width="166" height="30"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reading Results 11/7/15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4di-uk-lJj">
+                                                    <rect key="frame" x="210" y="11" width="180" height="21"/>
                                                     <animations/>
-                                                    <state key="normal" title="Reading Results: 11/7/15"/>
-                                                </button>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <animations/>
                                             <constraints>
+                                                <constraint firstItem="4di-uk-lJj" firstAttribute="centerY" secondItem="aLz-bS-ubU" secondAttribute="centerY" id="087-Dx-7Fx"/>
                                                 <constraint firstItem="uZ0-tm-bzX" firstAttribute="leading" secondItem="aLz-bS-ubU" secondAttribute="leadingMargin" id="0t7-c2-7bG"/>
                                                 <constraint firstItem="uZ0-tm-bzX" firstAttribute="centerY" secondItem="aLz-bS-ubU" secondAttribute="centerY" id="2h0-nX-aPP"/>
                                                 <constraint firstItem="uZ0-tm-bzX" firstAttribute="leading" secondItem="aLz-bS-ubU" secondAttribute="leadingMargin" id="35g-nt-snd"/>
-                                                <constraint firstItem="XsS-Dd-u9A" firstAttribute="centerY" secondItem="aLz-bS-ubU" secondAttribute="centerY" id="8wl-Fh-dJ0"/>
                                                 <constraint firstItem="uZ0-tm-bzX" firstAttribute="centerY" secondItem="aLz-bS-ubU" secondAttribute="centerY" id="As4-Ab-24S"/>
-                                                <constraint firstItem="XsS-Dd-u9A" firstAttribute="centerX" secondItem="aLz-bS-ubU" secondAttribute="centerX" id="qxt-RA-2V5"/>
+                                                <constraint firstItem="4di-uk-lJj" firstAttribute="centerX" secondItem="aLz-bS-ubU" secondAttribute="centerX" id="iWO-Wd-AfW"/>
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
@@ -718,11 +732,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kN2-LL-4Kz">
-                                                    <rect key="frame" x="255" y="7" width="91" height="30"/>
-                                                    <animations/>
-                                                    <state key="normal" title="Health Tip #1"/>
-                                                </button>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="health.png" translatesAutoresizingMaskIntoConstraints="NO" id="AIg-16-G8H">
                                                     <rect key="frame" x="8" y="0.0" width="43" height="43"/>
                                                     <animations/>
@@ -731,13 +740,20 @@
                                                         <constraint firstAttribute="height" constant="43" id="n6w-DW-EmJ"/>
                                                     </constraints>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Health Tip #1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="er1-m5-nrq">
+                                                    <rect key="frame" x="250" y="11" width="101" height="21"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <animations/>
                                             <constraints>
+                                                <constraint firstItem="er1-m5-nrq" firstAttribute="centerY" secondItem="Oz5-e6-YvY" secondAttribute="centerY" id="DXd-AT-hs6"/>
                                                 <constraint firstItem="AIg-16-G8H" firstAttribute="centerY" secondItem="Oz5-e6-YvY" secondAttribute="centerY" id="PGw-48-zph"/>
-                                                <constraint firstItem="kN2-LL-4Kz" firstAttribute="centerY" secondItem="Oz5-e6-YvY" secondAttribute="centerY" id="Rwd-i1-axQ"/>
                                                 <constraint firstItem="AIg-16-G8H" firstAttribute="leading" secondItem="Oz5-e6-YvY" secondAttribute="leadingMargin" id="S7r-jL-HLJ"/>
-                                                <constraint firstItem="kN2-LL-4Kz" firstAttribute="centerX" secondItem="Oz5-e6-YvY" secondAttribute="centerX" id="X49-1k-vtr"/>
+                                                <constraint firstItem="er1-m5-nrq" firstAttribute="centerX" secondItem="Oz5-e6-YvY" secondAttribute="centerX" id="uxc-3d-hKG"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <animations/>
