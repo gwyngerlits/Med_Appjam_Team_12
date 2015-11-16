@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED1C1CB51BF9A17B00A8C984 /* chart.gif in Resources */ = {isa = PBXBuildFile; fileRef = ED1C1CB41BF9A17B00A8C984 /* chart.gif */; };
+		ED1C1CBA1BF9ACE900A8C984 /* chart1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1C1CB61BF9ACE900A8C984 /* chart1.png */; };
+		ED1C1CBB1BF9ACE900A8C984 /* chart2.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1C1CB71BF9ACE900A8C984 /* chart2.png */; };
+		ED1C1CBC1BF9ACE900A8C984 /* chart3.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1C1CB81BF9ACE900A8C984 /* chart3.png */; };
+		ED1C1CBD1BF9ACE900A8C984 /* chart4.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1C1CB91BF9ACE900A8C984 /* chart4.png */; };
+		ED1C1CBF1BF9AE5700A8C984 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1C1CBE1BF9AE5700A8C984 /* MainViewController.swift */; };
+		ED1C1CC11BF9B18500A8C984 /* GoToMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1C1CC01BF9B18500A8C984 /* GoToMainViewController.swift */; };
 		ED576A1B1BF8A80F00EB1000 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED576A1A1BF8A80F00EB1000 /* SecondViewController.swift */; };
 		ED576A281BF8C39400EB1000 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = ED576A241BF8C39400EB1000 /* pause.png */; };
 		ED576A291BF8C39400EB1000 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = ED576A251BF8C39400EB1000 /* play.png */; };
@@ -46,6 +53,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED1C1CB41BF9A17B00A8C984 /* chart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = chart.gif; path = Assets/chart.gif; sourceTree = SOURCE_ROOT; };
+		ED1C1CB61BF9ACE900A8C984 /* chart1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chart1.png; path = Assets/chart1.png; sourceTree = SOURCE_ROOT; };
+		ED1C1CB71BF9ACE900A8C984 /* chart2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chart2.png; path = Assets/chart2.png; sourceTree = SOURCE_ROOT; };
+		ED1C1CB81BF9ACE900A8C984 /* chart3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chart3.png; path = Assets/chart3.png; sourceTree = SOURCE_ROOT; };
+		ED1C1CB91BF9ACE900A8C984 /* chart4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chart4.png; path = Assets/chart4.png; sourceTree = SOURCE_ROOT; };
+		ED1C1CBE1BF9AE5700A8C984 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		ED1C1CC01BF9B18500A8C984 /* GoToMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoToMainViewController.swift; sourceTree = "<group>"; };
 		ED576A1A1BF8A80F00EB1000 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		ED576A241BF8C39400EB1000 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = Assets/pause.png; sourceTree = SOURCE_ROOT; };
 		ED576A251BF8C39400EB1000 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = Assets/play.png; sourceTree = SOURCE_ROOT; };
@@ -126,6 +140,8 @@
 				EDA11CE31BF821E10020E293 /* ViewController.swift */,
 				ED576A1A1BF8A80F00EB1000 /* SecondViewController.swift */,
 				EDA11CE51BF821E10020E293 /* Main.storyboard */,
+				ED1C1CBE1BF9AE5700A8C984 /* MainViewController.swift */,
+				ED1C1CC01BF9B18500A8C984 /* GoToMainViewController.swift */,
 				EDA11CE81BF821E10020E293 /* Assets.xcassets */,
 				EDA11CEA1BF821E10020E293 /* LaunchScreen.storyboard */,
 				EDA11CED1BF821E10020E293 /* Info.plist */,
@@ -154,6 +170,11 @@
 		EDA11D141BF866E40020E293 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				ED1C1CB61BF9ACE900A8C984 /* chart1.png */,
+				ED1C1CB71BF9ACE900A8C984 /* chart2.png */,
+				ED1C1CB81BF9ACE900A8C984 /* chart3.png */,
+				ED1C1CB91BF9ACE900A8C984 /* chart4.png */,
+				ED1C1CB41BF9A17B00A8C984 /* chart.gif */,
 				ED576A401BF9623C00EB1000 /* touch.png */,
 				ED576A3E1BF9604E00EB1000 /* touchResults.jpg */,
 				ED576A3C1BF95CEF00EB1000 /* readingResults.png */,
@@ -277,6 +298,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1C1CBB1BF9ACE900A8C984 /* chart2.png in Resources */,
+				ED1C1CBA1BF9ACE900A8C984 /* chart1.png in Resources */,
 				EDA11CEC1BF821E10020E293 /* LaunchScreen.storyboard in Resources */,
 				ED576A3D1BF95CEF00EB1000 /* readingResults.png in Resources */,
 				ED576A291BF8C39400EB1000 /* play.png in Resources */,
@@ -289,7 +312,10 @@
 				ED576A2A1BF8C39400EB1000 /* recordOff.png in Resources */,
 				ED576A3F1BF9604E00EB1000 /* touchResults.jpg in Resources */,
 				EDA11CE71BF821E10020E293 /* Main.storyboard in Resources */,
+				ED1C1CBD1BF9ACE900A8C984 /* chart4.png in Resources */,
+				ED1C1CB51BF9A17B00A8C984 /* chart.gif in Resources */,
 				ED576A2B1BF8C39400EB1000 /* recordOn.png in Resources */,
+				ED1C1CBC1BF9ACE900A8C984 /* chart3.png in Resources */,
 				ED576A411BF9623C00EB1000 /* touch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +344,8 @@
 				ED576A1B1BF8A80F00EB1000 /* SecondViewController.swift in Sources */,
 				EDA11CE41BF821E10020E293 /* ViewController.swift in Sources */,
 				EDA11CE21BF821E10020E293 /* AppDelegate.swift in Sources */,
+				ED1C1CC11BF9B18500A8C984 /* GoToMainViewController.swift in Sources */,
+				ED1C1CBF1BF9AE5700A8C984 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
